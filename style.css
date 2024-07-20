@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sevillana");
 
-:host{
+.vfrc-assistant-info--title{
   --fonts-default: 'Sevillana', cursive;
 }
