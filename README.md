@@ -1,4 +1,4 @@
-<h2>Change voiceflows agent default font</h2>
+<h2>How to change the default font of the Voiceflow agent</h2>
 
 You can find more information in official Voiceflow documentation:
 https://docs.voiceflow.com/docs/embed-customize-styling
