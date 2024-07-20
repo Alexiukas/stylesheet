@@ -1,0 +1,3 @@
+assistant: {
+  stylesheet:"{{ 'chatbot-style.css' | asset_url }}"
+}
