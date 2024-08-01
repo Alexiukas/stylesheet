@@ -1,3 +1,20 @@
-assistant: {
-  stylesheet:"{{ 'chatbot-style.css' | asset_url }}"
-}
+# Refrencing file created in assests folder named "chatbot-style.css"
+
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: 'YOUR_PROJECT_ID' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          assistant: {
+            stylesheet:"{{ 'chatbot-style.css' | asset_url }}"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+
+
